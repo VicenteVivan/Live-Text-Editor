@@ -1,0 +1,28 @@
+body {
+  padding: 7rem 15rem;
+}
+
+div#form * {
+  margin: 1rem;
+}
+
+div#form input#username {
+  width: 20rem;
+}
+
+div#form textarea {
+  resize: none;
+}
+
+div#form span {
+  margin: 0;
+  background-color: #1d1d1d;
+  color: gainsboro;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    padding: 7rem 5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
