@@ -1,4 +1,4 @@
-const socket = io("ws://https://live-text.herokuapp.com/", {
+const socket = io("wss://https://live-text.herokuapp.com/", {
     transports: ["websocket", "polling", "flashsocket"],
 });
 
