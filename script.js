@@ -1,4 +1,6 @@
-const socket = io("ws://localhost:3000", { transports: ["websocket", "polling", "flashsocket"] });
+const socket = io("ws://https://live-text.herokuapp.com/", {
+    transports: ["websocket", "polling", "flashsocket"],
+});
 
 const usernameInput = document.querySelector("input");
 const textBox = document.querySelector("textarea");
